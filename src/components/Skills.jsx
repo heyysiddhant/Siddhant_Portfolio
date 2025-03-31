@@ -8,12 +8,14 @@ import {
   FaNodeJs,
   FaServer,
   FaWeebly,
+  FaJava,
 } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
 import { SiMongodb, SiTailwindcss } from "react-icons/si";
 import { FaAmazon } from "react-icons/fa";
 import { TbBrandNextjs, TbBrandVscode } from "react-icons/tb";
 import { FaGraduationCap, FaLaptopCode } from "react-icons/fa";
+
 const Skills = () => {
   return (
     <div id="Skills" className="p-10 md:p-24">
@@ -47,6 +49,9 @@ const Skills = () => {
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <FaFigma color="#F24E1E" size={50} />
           </span>
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+            <FaJava color="#5382A1" size={50} />
+          </span>
         </div>
         <div>
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
@@ -72,6 +77,7 @@ const Skills = () => {
               <ul className="text-sm p-2">
                 <li>- 🚀 Frontend: React.js, Tailwind CSS, Figma </li>
                 <li>- ⚙️ Backend: Node.js, Express.js, MongoDB </li>
+                <li>- 💻 Programming Languages: Java, C++</li>
                 <li>- 🗃️ Version Control: Git, GitHub</li>
                 <li>- 🌐 Deployment: Vercel, Netlify</li>
               </ul>
