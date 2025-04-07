@@ -3,6 +3,8 @@ import ProjectCard from "./ProjectCard";
 import movieSearchImg from "../assets/moviesearch.jpg";
 import amazonCloneImg from "../assets/amazonclone.jpg";
 import todoListImg from "../assets/todolist.png";
+import calcImg from "../assets/calc.jpg";
+import ppImg from "../assets/pp3.jpg";
 
 const Projects = () => {
   return (
@@ -29,6 +31,22 @@ const Projects = () => {
           image={todoListImg}
           runLink="https://heyysiddhant.github.io/To-Do-List/"
           sourceCode="https://github.com/heyysiddhant/To-Do-List"
+        />
+        <ProjectCard
+          title="Calculator"
+          main="The Simple Calculator is a web-based application built using core web technologies – HTML5, CSS3, and JavaScript. It performs basic arithmetic operations. The design is clean and responsive with clickable buttons, an input display screen, and hover effects for a modern look.
+"
+          image={calcImg}
+          runLink="https://heyysiddhant.github.io/Calculator/"
+          sourceCode="https://github.com/heyysiddhant/Calculator"
+        />
+        <ProjectCard
+          title="Portfolio Website"
+          main=" A fully responsive Personal Portfolio Website built using React.js and Tailwind CSS, designed with a modern 
+              UI/UX approach. Optimized for all devices, an enhanced UI, and a mobile-friendly navigation menu. With a clean, minimalistic and professional design,it ensures an engaging user experience."
+          image={ppImg}
+          runLink=""
+          sourceCode="https://github.com/heyysiddhant/Siddhant_Portfolio"
         />
       </div>
     </div>
