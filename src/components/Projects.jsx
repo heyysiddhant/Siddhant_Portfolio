@@ -5,6 +5,7 @@ import amazonCloneImg from "../assets/amazonclone.jpg";
 import todoListImg from "../assets/todolist.png";
 import calcImg from "../assets/calc.jpg";
 import ppImg from "../assets/pp3.jpg";
+import bubbleGame from "../assets/bubbleGame.jpg";
 
 const Projects = () => {
   return (
@@ -47,6 +48,16 @@ const Projects = () => {
           image={ppImg}
           runLink=""
           sourceCode="https://github.com/heyysiddhant/Siddhant_Portfolio"
+        />
+        <ProjectCard
+          title="Bubble Game"
+          main="A fun and interactive browser-based Bubble Game built using *HTML, CSS, and JavaScript*. Click the correct bubble number to increase your score before time runs out! A perfect beginner-friendly JavaScript project to demonstrate DOM manipulation, event handling, and dynamic styling.
+
+
+"
+          image={bubbleGame}
+          runLink="https://heyysiddhant.github.io/bubbleGame/"
+          sourceCode="https://github.com/heyysiddhant/bubbleGame"
         />
       </div>
     </div>
