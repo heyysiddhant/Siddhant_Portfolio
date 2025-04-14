@@ -36,7 +36,7 @@ Animations: CSS Keyframes
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/heyysiddhant/portfolio.git
 cd portfolio
 
 
