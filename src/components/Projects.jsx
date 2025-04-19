@@ -7,6 +7,7 @@ import calcImg from "../assets/calc.jpg";
 import ppImg from "../assets/pp3.jpg";
 import bubbleGame from "../assets/bubbleGame.jpg";
 import weather from "../assets/weather.jpg";
+import amazonmern from "../assets/amazonmern.png";
 
 const Projects = () => {
   return (
@@ -26,6 +27,13 @@ const Projects = () => {
           image={amazonCloneImg}
           runLink="https://heyysiddhant.github.io/Amazon/"
           sourceCode="https://github.com/heyysiddhant/Amazon"
+        />
+        <ProjectCard
+          title="Amazon Clone (MERN)"
+          main="This Amazon-clone is a full-stack e-commerce website created using the MERN Stack (MongoDB, Express, React, Node.js). It includes user authentication using Firebase, product ordering, and Stripe payment processing."
+          image={amazonmern}
+          runLink="https://heyysiddhant.github.io/AmazonMERN/"
+          sourceCode="https://github.com/heyysiddhant/AmazonClone-MERN"
         />
         <ProjectCard
           title="To-do List App"
