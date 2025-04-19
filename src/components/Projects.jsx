@@ -6,6 +6,7 @@ import todoListImg from "../assets/todolist.png";
 import calcImg from "../assets/calc.jpg";
 import ppImg from "../assets/pp3.jpg";
 import bubbleGame from "../assets/bubbleGame.jpg";
+import weather from "../assets/weather.jpg";
 
 const Projects = () => {
   return (
@@ -51,13 +52,18 @@ const Projects = () => {
         />
         <ProjectCard
           title="Bubble Game"
-          main="A fun and interactive browser-based Bubble Game built using *HTML, CSS, and JavaScript*. Click the correct bubble number to increase your score before time runs out! A perfect beginner-friendly JavaScript project to demonstrate DOM manipulation, event handling, and dynamic styling.
-
-
-"
+          main="A fun and interactive browser-based Bubble Game built using *HTML, CSS, and JavaScript*. Click the correct bubble number to increase your score before time runs out! A perfect beginner-friendly JavaScript project to demonstrate DOM manipulation, event handling, and dynamic styling."
           image={bubbleGame}
           runLink="https://heyysiddhant.github.io/bubbleGame/"
           sourceCode="https://github.com/heyysiddhant/bubbleGame"
+        />
+
+        <ProjectCard
+          title="WeatherLive"
+          main="A Weather App website provides real-time weather data for any location, including temperature, humidity, wind speed, and forecasts. Users can search by city or current location, with a unit toggle for Celsius/Fahrenheit, all in a responsive and user-friendly design."
+          image={weather}
+          runLink="https://heyysiddhant.github.io/WeatherLive/"
+          sourceCode="https://github.com/heyysiddhant/WeatherLive"
         />
       </div>
     </div>
