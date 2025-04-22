@@ -1,8 +1,17 @@
 import React from "react";
+import { motion } from "framer-motion";
 
-const ProjectCard = ({ title, main, image, runLink, sourceCode }) => {
+const ProjectCard = ({ title, main, image, runLink, sourceCode, index }) => {
+  const fromLeft = index % 2 === 0;
+
   return (
-    <div className="p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl">
+    <motion.div
+      initial={{ opacity: 0, x: fromLeft ? -100 : 100 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 1.2, ease: "easeOut" }}
+      className="p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl"
+    >
       <img className="p-4 rounded-lg" src={image} alt={title} />
       <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal">
         {title}
@@ -26,7 +35,7 @@ const ProjectCard = ({ title, main, image, runLink, sourceCode }) => {
           Source Code
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
