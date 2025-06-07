@@ -13,9 +13,7 @@ const Home = () => {
        <a href="#Contact">
         <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 front-semibold rounded-3xl bg-[#465697]">Contact Me</button>
        </a> 
-          <a href="#Contact">
-        <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 front-semibold rounded-3xl bg-[#465697]">Resumé</button>
-       </a> 
+          
         </div>
 
 
