@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import { motion } from "framer-motion";
 
+import DesiTrailsImg from "../assets/DesiTrailsImg.jpg";
 import movieSearchImg from "../assets/moviesearch.jpg";
 import amazonCloneImg from "../assets/amazonclone.jpg";
 import todoListImg from "../assets/todolist.png";
@@ -13,6 +14,14 @@ import amazonmern from "../assets/amazonmern.png";
 
 const Projects = () => {
   const projects = [
+     {
+      title: "Desi Trails",
+      main: "A Tour & Travel Site with full operations, A MERN Project with Travel booking operation ...",
+      image: DesiTrailsImg,
+      runLink: "https://heyysiddhant.github.io/Desi-Trails/",
+      sourceCode: "https://github.com/heyysiddhant/Desi-Trails",
+    },
+    
     {
       title: "Movie Search Website",
       main: "The Movie Search Website is a fully responsive web application that allows users to search for movies in real time...",
@@ -69,6 +78,7 @@ const Projects = () => {
       runLink: "https://heyysiddhant.github.io/WeatherLive/",
       sourceCode: "https://github.com/heyysiddhant/WeatherLive",
     },
+   
   ];
 
   return (

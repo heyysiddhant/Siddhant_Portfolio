@@ -4,18 +4,3 @@
     scroll-behavior: smooth;
 }
 
-@keyframes neonGlow {
-    0% {
-      box-shadow: 0 0 5px #00bfff, 0 0 10px #00bfff, 0 0 15px #00bfff, 0 0 20px #00bfff;
-    }
-    50% {
-      box-shadow: 0 0 10px #502d68, 0 0 20px #00bfff, 0 0 30px #ae1795, 0 0 40px #00bfff;
-    }
-    100% {
-      box-shadow: 0 0 5px #ac43ac, 0 0 10px #ec1693, 0 0 15px #a9095c, 0 0 20px #ff00f2;
-    }
-  }
-  
-  .animate-neon-glow {
-    animation: neonGlow 1.5s infinite alternate ease-in-out;
-  }
