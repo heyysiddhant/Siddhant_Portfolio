@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Typewriter } from 'react-simple-typewriter';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import avtarImage from '../assets/siddy2.png';
+import avtarImage from '../assets/Siddmarco~2.jpg';
 
 const techStack = [
   'React.js', 'Node.js', 'MongoDB', 'Express.js', 'Tailwind CSS', 'Figma',
