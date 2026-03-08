@@ -1,130 +1,92 @@
-🚀 Personal Portfolio
+# 🚀 Siddhant's Portfolio v3.0
 
-A fully responsive Personal Portfolio built with React.js and Tailwind CSS, featuring smooth animations, a modern UI, and essential sections like Home, About, Skills, Education, Projects, and Contact.
+A high-tech, premium personal portfolio built with **React 19**, **Tailwind CSS**, and **Framer Motion**. This version (3.0) features advanced 3D isometric visuals, dynamic project categorization, and glassmorphic UI elements optimized for all devices.
 
-📌 Features
+## ✨ New in Version 3.0
+- **Dynamic Project Filtering**: Categorized showcase (MERN, React, Core Web) with smooth scale and slide transitions.
+- **Premium 3D Visuals**: Custom-generated 3D isometric project covers for a modern, high-end feel.
+- **Advanced Animations**: Powered by Framer Motion, featuring alternating slide-in effects and stagger children transitions.
+- **Mobile First Optimization**: Re-engineered visibility logic for flawless experiences on mobile refreshes and touch interactions.
+- **Refined Tech Stack**: Updated profile and skills section with a focus on MERN stack and SaaS development.
 
-Responsive Design – Fully optimized for all devices (mobile, tablet, desktop).
-
-React Icons – Integrated stylish icons for better UI.
-
-Animated Text – Dynamic text animation for an interactive experience.
-
-Navbar Toggle – Mobile-friendly navigation menu.
-
-Project Section – Showcases projects with clickable Demo and Source Code links.
-
-Best UI/UX – Clean, minimalistic, and professional.
-
-
+## 📌 Features
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop.
+- **Interactive UI**: Glassmorphic effects, hover states, and micro-interactions.
+- **Animated Performance**: Smooth 60fps animations for entrance and state changes.
+- **SaaS Focused**: Highlights production-ready applications like Showzy and Vaani.
 
 ---
 
-🛠️ Tech Stack
-
-Frontend: React.js, Tailwind CSS
-
-Icons: React Icons
-
-Animations: CSS Keyframes
-
-
+## 🛠️ Tech Stack
+- **Frontend**: React.js 19, Tailwind CSS 4
+- **Animations**: Framer Motion
+- **Icons**: React Icons, Remix Icons
+- **Deployment**: GitHub Pages, Vercel
 
 ---
 
-⚡ Setup & Installation
-
+## ⚡ Setup & Installation
 1. Clone the repository:
-
-git clone https://github.com/heyysiddhant/portfolio.git
-cd portfolio
-
-
+   ```bash
+   git clone https://github.com/heyysiddhant/Siddhant_Portfolio.git
+   cd Siddhant_Portfolio
+   ```
 2. Install dependencies:
-
-npm install
-
-
+   ```bash
+   npm install
+   ```
 3. Start the development server:
-
-npm run dev
-
-
-4. Open http://localhost:5173/ in your browser.
-
-
-
+   ```bash
+   npm run dev
+   ```
 
 ---
 
-🌍 Deployment
+## 🌍 Deployment
+The project is configured for seamless deployment to GitHub Pages.
 
-Deploy on GitHub Pages (or any other platform)
-
-1. Build the project:
-
-npm run build
-
-
-2. Deploy using Vercel 
-
-npm install -g vercel
-vercel
-
-
-
+1. Build and Deploy:
+   ```bash
+   npm run deploy
+   ```
 
 ---
 
-📁 Folder Structure
-
-Siddhant's portfolio/
+## 📁 Folder Structure
+```text
+Siddhant_Portfolio/
 ├── src/
-│   ├── components/  # Reusable UI components (Navbar, Footer, etc.)
-│   ├── pages/        # Different sections of the website
-│   ├── assets/       # Images and static files
-│   ├── App.js        # Main entry point
-│   ├── index.js      # Renders React App
-├── public/           # Static assets
-├── package.json      # Dependencies and scripts
-├── README.md         # Project documentation
-
-
----
-
-🚀 Live Demo 
-
-🔗 https://heyysiddhant.github.io/Siddhant_Portfolio/
-
+│   ├── components/  # Optimized UI components (Navbar, Projects, etc.)
+│   ├── assets/       # Premium 3D assets and profile visuals
+│   ├── App.jsx       # Main entrance
+│   ├── main.jsx      # React entry point
+├── public/           # Static metadata
+├── package.json      # Version 3.0 configuration
+└── README.md         # Documentation
+```
 
 ---
 
-📜 License
+## 🚀 Live Demo 
+🔗 [Siddhant's Portfolio v3.0](https://heyysiddhant.github.io/Siddhant_Portfolio/)
 
+---
+
+## 📜 License
 This project is open-source and available under the MIT License.
 
+---
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
 ---
 
-🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-
----
-
-📧 Contact
-
-Feel free to reach out:
-
-Email: siddhantmishra2k18@gmail.com
-
-GitHub: heyysiddhant
-
-LinkedIn: Siddhant Kumar Mishra
-
-
+## 📧 Contact
+Feel free to reach out for collaborations:
+- **Email**: [siddhantmishra2k18@gmail.com](mailto:siddhantmishra2k18@gmail.com)
+- **GitHub**: [@heyysiddhant](https://github.com/heyysiddhant)
+- **LinkedIn**: [Siddhant Kumar Mishra](https://linkedin.com/in/siddhant2908)
 
 ---
-
-Star ⭐ this repository if you find it useful!
+*Star ⭐ this repository if you find it useful!*

@@ -2,7 +2,7 @@
   "homepage": "https://heyysiddhant.github.io/Siddhant_Portfolio",
   "name": "siddportfolio",
   "private": true,
-  "version": "0.0.0",
+   "version": "3.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
