@@ -1,38 +1,53 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const ProjectCard = ({ title, main, image, runLink, sourceCode, index }) => {
+const ProjectCard = ({ title, main, image, runLink, sourceCode, tech, index }) => {
   const fromLeft = index % 2 === 0;
 
   return (
     <motion.div
-      initial={{ opacity: 0, x: fromLeft ? -100 : 100 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      viewport={{ once: true, amount: 0.3 }}
-      transition={{ duration: 1.2, ease: "easeOut" }}
-      className="p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl"
+      initial={{ opacity: 0, x: fromLeft ? -30 : 30 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: fromLeft ? -30 : 30 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      className="p-4 md:p-6 flex flex-col w-full h-full bg-[#0c0e19]/80 backdrop-blur-sm shadow-xl shadow-black/50 rounded-2xl border border-white/5 hover:border-cyan-500/30 transition-colors duration-500"
     >
-      <img className="p-4 rounded-lg" src={image} alt={title} />
-      <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal">
+      <div className="relative overflow-hidden rounded-lg mb-4 aspect-video">
+        <img 
+          className="w-full h-full object-cover transition-transform duration-500 hover:scale-110" 
+          src={image} 
+          alt={title} 
+        />
+      </div>
+      
+      <div className="mb-2">
+        <span className="text-[10px] font-bold text-cyan-400 uppercase tracking-widest">{tech}</span>
+      </div>
+      
+      <h3 className="text-xl md:text-2xl font-bold leading-tight mb-2 text-white">
         {title}
       </h3>
-      <p className="px-4 text-sm md:text-md leading-tight py-2">{main}</p>
-      <div className="mt-2 p-2 md:p-4 flex gap-2 md:gap-4">
+      
+      <p className="text-sm md:text-base leading-relaxed text-gray-400 mb-6 flex-grow">
+        {main}
+      </p>
+      
+      <div className="flex gap-3 pt-4 border-t border-white/5 mt-auto">
         <a
           href={runLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]"
+          className="flex-1 text-center text-white py-2 px-4 text-sm font-bold rounded-xl bg-[#465697] hover:opacity-90 shadow-lg shadow-black/20 transition-all duration-300 hover:-translate-y-1"
         >
-          Run
+          LIVE
         </a>
         <a
           href={sourceCode}
           target="_blank"
           rel="noopener noreferrer"
-          className="md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]"
+          className="flex-1 text-center text-white py-2 px-4 text-sm font-bold rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-all duration-300 hover:-translate-y-1"
         >
-          Source Code
+          CODE
         </a>
       </div>
     </motion.div>
